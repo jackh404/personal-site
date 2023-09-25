@@ -3,7 +3,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 #container{
-    width: 1200px;
+    max-width: 800px;
     margin:auto;
     background-color: aliceblue;
     padding: 25px;
@@ -14,4 +14,13 @@ h1{
 }
 p{
     font-size: large;
+}
+#jvLoBg{
+    opacity:0;
+    position: absolute;
+    top: 20px;
+    background-color: white;
+    padding:50px;
+    border-radius: 50%;
+    transition: opacity 0.5s;
 }
